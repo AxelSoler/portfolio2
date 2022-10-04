@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import logo from '../../img/logo/default-monochrome-white.svg';
 import './Navbar.css';
 
@@ -11,16 +12,31 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <img src={logo} alt="logo" className="nav-logo" />
+      <img src={logo} alt="logo" className="navLogo" />
       <ul className="nav-menu">
-        <li className="nav-item">
-          Portfolio
+        <li className="navItem">
+          <NavLink
+            className="navLink"
+            to="/"
+          >
+            About
+          </NavLink>
         </li>
-        <li className="nav-item">
-          About
+        <li className="navItem">
+          <NavLink
+            className="navLink"
+            to="/projects"
+          >
+            Projects
+          </NavLink>
         </li>
-        <li className="nav-item">
-          Contact
+        <li className="navItem">
+          <NavLink
+            className="navLink"
+            to="/contact"
+          >
+            Contact
+          </NavLink>
         </li>
       </ul>
       <button

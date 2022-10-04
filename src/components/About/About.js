@@ -1,5 +1,3 @@
-import SocialLinks from '../SocialLinks/SocialLinks';
-
 const About = () => (
   <section className="about">
     <h1>Axel Soler</h1>
@@ -35,7 +33,6 @@ const About = () => (
         </ul>
       </div>
     </div>
-    <SocialLinks />
   </section>
 );
 
