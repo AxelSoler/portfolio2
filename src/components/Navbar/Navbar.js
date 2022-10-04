@@ -1,8 +1,7 @@
-import logo from '../../img/vector/default-monochrome-white.svg';
+import logo from '../../img/logo/default-monochrome-white.svg';
 import './Navbar.css';
 
 const Navbar = () => {
-
   const toggleMobileMenu = () => {
     const hamburger = document.querySelector('.hamburger');
     const navMenu = document.querySelector('.nav-menu');
@@ -15,13 +14,13 @@ const Navbar = () => {
       <img src={logo} alt="logo" className="nav-logo" />
       <ul className="nav-menu">
         <li className="nav-item">
-            Portfolio
+          Portfolio
         </li>
         <li className="nav-item">
-            About
+          About
         </li>
         <li className="nav-item">
-            Contact
+          Contact
         </li>
       </ul>
       <button
@@ -36,6 +35,6 @@ const Navbar = () => {
       </button>
     </nav>
   );
-}
+};
 
 export default Navbar;
