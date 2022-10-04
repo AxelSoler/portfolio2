@@ -1,6 +1,8 @@
+import Navbar from "./components/Navbar/Navbar";
+
 const App = () => (
   <div className="App">
-    <h1>Portfolio 2</h1>
+    <Navbar />
   </div>
 );
 
