@@ -4,6 +4,11 @@ const About = () => (
     <h2>Full Stack Developer</h2>
     <div className="aboutDescription">
       <p className="description">
+        I am a full-stack developer currently looking for new opportunities,
+        {' '}
+        Also I am an electromechanical technician. Always trying to learn new things.
+      </p>
+      <p className="description">
         I can help you build your desire product or website.
         {' '}
         Look through some of my work and experience!

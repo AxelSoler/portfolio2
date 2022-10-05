@@ -3,19 +3,47 @@ import { BsTwitter, BsLinkedin, BsGithub } from 'react-icons/bs';
 import { FaAngellist } from 'react-icons/fa';
 
 const SocialLinks = () => (
-  <div className="social-media">
-    <ul>
+  <div className="socialMedia">
+    <ul className="ulSocial">
       <li className="social">
-        <a href="https://github.com/AxelSoler" target="_blank" rel="noopener noreferrer" aria-label="Github"><BsGithub /></a>
+        <a
+          href="https://github.com/AxelSoler"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Github"
+        >
+          <BsGithub color="blue" size="24px" />
+        </a>
       </li>
       <li className="social">
-        <a href="https://www.linkedin.com/in/axel-soler-dev/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><BsLinkedin /></a>
+        <a
+          href="https://www.linkedin.com/in/axel-soler-dev/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn"
+        >
+          <BsLinkedin color="blue" size="24px" />
+        </a>
       </li>
       <li className="social">
-        <a href="https://angel.co/u/axel-soler" target="_blank" rel="noopener noreferrer" aria-label="Angellist"><FaAngellist /></a>
+        <a
+          href="https://angel.co/u/axel-soler"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Angellist"
+        >
+          <FaAngellist color="blue" size="24px" />
+        </a>
       </li>
       <li className="social">
-        <a href="https://twitter.com/AxelSoler18" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><BsTwitter /></a>
+        <a
+          href="https://twitter.com/AxelSoler18"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Twitter"
+        >
+          <BsTwitter color="blue" size="24px" />
+        </a>
       </li>
     </ul>
   </div>
