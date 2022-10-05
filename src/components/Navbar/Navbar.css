@@ -1,55 +1,37 @@
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: blue;
+  background-color: #004aad;
+  padding: 16px;
+  color: #fff;
 }
 
-.bar {
+.developer {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  border-bottom: 1px solid #fff;
+}
+
+.navMenu {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.linkActive {
+  display: none;
+}
+
+.linkInactive {
+  width: fit-content;
   display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  background-color: #101010;
-}
-
-.hamburger {
-  width: 50px;
-  cursor: pointer;
-  background-color: transparent;
-  border: none;
-}
-
-.hamburger.active .bar:nth-child(2) {
-  opacity: 0;
-}
-
-.hamburger.active .bar:nth-child(1) {
-  transform: translateY(8px) rotate(45deg);
-}
-
-.hamburger.active .bar:nth-child(3) {
-  transform: translateY(-8px) rotate(-45deg);
-}
-
-img {
-  width: 200px;
+  text-decoration: none;
+  color: #fff;
 }
 
 @media only screen and (min-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 1rem;
-  }
 }
