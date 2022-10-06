@@ -1,6 +1,7 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import projects from './AllProjects';
+import Project from './Project';
 import './Projects.css';
 
 const Projects = () => {
@@ -11,27 +12,23 @@ const Projects = () => {
     },
     laptop: {
       breakpoint: { max: 1024, min: 768 },
-      items: 3,
-    },
-    tablet: {
-      breakpoint: { max: 768, min: 464 },
       items: 2,
     },
     mobile: {
-      breakpoint: { max: 464, min: 0 },
+      breakpoint: { max: 768, min: 0 },
       items: 1,
     },
   };
   return (
     <section className="work">
-      <h2>MY PROJECTS</h2>
+      <h2 className="title">MY PROJECTS</h2>
       <Carousel
         responsive={responsive}
         className="carousel-container"
         infinite
         centerMode={false}
         autoPlay
-        autoPlaySpeed={3000}
+        autoPlaySpeed={5000}
         additionalTransfrom={0}
         draggable={false}
         focusOnSelect={false}
@@ -45,28 +42,10 @@ const Projects = () => {
         shouldResetAutoplay
         slidesToSlide={1}
         swipeable
+        transitionDuration={500}
       >
         {projects.map((project) => (
-          <div key={project.name} className="project">
-            <h3 className="post">{project.name}</h3>
-            <img className="picture" src={project.image} alt={project.name} />
-            <p className="postDescription">{project.description}</p>
-            <a href={project.live} target="_blank" rel="noopener noreferrer" className="projectLink">
-              See Live
-              {' '}
-              {project.name}
-            </a>
-            <a href={project.repository} target="_blank" rel="noopener noreferrer" className="projectLink">
-              See Repository
-              {' '}
-              {project.name}
-            </a>
-            <ul>
-              {project.technologies.map((technology) => (
-                <li key={technology}>{technology}</li>
-              ))}
-            </ul>
-          </div>
+          <Project key={project.name} project={project} />
         ))}
       </Carousel>
     </section>

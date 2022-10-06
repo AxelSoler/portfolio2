@@ -29,11 +29,9 @@ const projects = [
     image: monsterimg,
     technologies: [
       'CSS',
-      'html',
       'JavaScript',
       'React',
       'Redux',
-      'Jest-Tests',
     ],
     live: 'https://classy-banoffee-260a19.netlify.app/',
     repository: 'https://github.com/AxelSoler/monster-hunter-world',
@@ -44,7 +42,6 @@ const projects = [
     image: budgetimg,
     technologies: [
       'CSS',
-      'html',
       'Ruby',
       'Ruby on Rails',
       'Rspec',
@@ -58,18 +55,16 @@ const projects = [
     image: spaceimg,
     technologies: [
       'CSS',
-      'html',
       'JavaScript',
       'React',
       'Redux',
-      'Jest-Tests',
     ],
     live: 'https://spiffy-marigold-45bbb6.netlify.app/',
     repository: 'https://github.com/AxelSoler/space-travelers-hub',
   },
   {
     name: 'Cocktail',
-    description: 'JavaScript Capstone Project: Whit this page, you can see the different Margaritas stored in an API, see their description and add a comment or leave a like for each one, as you wish. The data (likes and comments) will be stored and displayed in real-time from another API. Almost all content is created dynamically with JavaScript. Teamwork in a full remote environment.',
+    description: 'JavaScript Capstone Project: You can see the different Margaritas stored in an API, see their description and add a comment or leave a like for each one. Data will be stored and displayed in real-time from a second API.',
     image: cocktailimg,
     technologies: [
       'CSS',

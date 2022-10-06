@@ -16,6 +16,8 @@ const About = () => (
           <li className="liTechnology">Html</li>
           <li className="liTechnology">Css</li>
           <li className="liTechnology">Ruby</li>
+          <li className="liTechnology">Rails</li>
+          <li className="liTechnology">Postgres</li>
         </ul>
         <ul className="ulTechnology">
           <li className="technologyTitle">Frameworks</li>

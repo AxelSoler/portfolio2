@@ -1,6 +1,8 @@
-@font-face { font-family: roboto; 
-  src: url('../../fonts/RobotoCondensed-Bold.ttf'); } 
-  
+@font-face {
+  font-family: roboto;
+  src: url('../../fonts/RobotoCondensed-Bold.ttf');
+}
+
 .logo {
   width: 100%;
 }
@@ -48,5 +50,5 @@
 }
 
 .liTechnology {
-  list-style:inside;
+  list-style: inside;
 }
