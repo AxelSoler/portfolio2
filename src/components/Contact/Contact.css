@@ -1,0 +1,81 @@
+.submitedContainer {
+  color: #fff;
+  font-family: roboto, sans-serif;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.thanksMessage {
+  padding-top: 48px;
+  padding-bottom: 2px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #fff;
+  font-size: 18px;
+}
+
+.contactLink {
+  margin-top: 24px;
+  color: #fff;
+  background-color: #004aad;
+  border-radius: 16px;
+  padding: 12px 24px;
+  text-decoration: none;
+}
+
+.contactForm {
+  width: 85%;
+  margin: 0 auto 96px auto;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  font-size: 28px;
+  border-bottom: 1px solid #fff;
+  margin: 24px 0;
+  padding: 12px 0;
+  width: 80%;
+}
+
+.labelInput {
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+  margin-top: 20px;
+  text-align: left;
+  width: 80%;
+}
+
+.input {
+  padding: 8px;
+  margin: 8px 0;
+  border: 2px solid #004aad;
+  border-radius: 8px;
+  box-shadow: 10px 5px 5px black;
+}
+
+#submitButton {
+  margin: 12px 0;
+  color: #fff;
+  background-color: #004aad;
+  border-radius: 16px;
+  padding: 12px 24px;
+}
+
+#formspree {
+  color: #920014;
+  display: flex;
+  margin-left: 5px;
+}
+
+#formspreeLink {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
