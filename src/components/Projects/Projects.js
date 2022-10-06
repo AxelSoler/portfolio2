@@ -1,4 +1,5 @@
 import projects from './AllProjects';
+import './Projects.css';
 
 const Projects = () => (
   <section className="work">

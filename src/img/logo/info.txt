@@ -1,0 +1,11 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Corben-Bold
+font link: https://fonts.google.com/specimen/Corben
+font author: Vernon Adams
+font author site: http://sansoxygen.com/
+Slogan Font: OFLGoudyStMTT.ttf
+
+{"bg-gradient-0":"#395ECA","bg-gradient-1":"#848BD8","icon":"#ffffff","font":"#ffffff","slogan":"#ffffff"}
+      

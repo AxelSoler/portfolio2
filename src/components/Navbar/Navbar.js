@@ -8,33 +8,27 @@ const Navbar = () => (
       <h3>Full Stack Developer</h3>
     </div>
     <ul className="navMenu">
-      <li className="navItem">
-        <NavLink
-          className={({ isActive }) => (isActive ? 'linkActive' : 'linkInactive')}
-          id="aboutLink"
-          to="/about"
-        >
-          About
-        </NavLink>
-      </li>
-      <li className="navItem">
-        <NavLink
-          className={({ isActive }) => (isActive ? 'linkActive' : 'linkInactive')}
-          id="projectsLink"
-          to="/projects"
-        >
-          Projects
-        </NavLink>
-      </li>
-      <li className="navItem">
-        <NavLink
-          className={({ isActive }) => (isActive ? 'linkActive' : 'linkInactive')}
-          id="contactLink"
-          to="/contact"
-        >
-          Contact
-        </NavLink>
-      </li>
+      <NavLink
+        className={({ isActive }) => (isActive ? 'linkActive' : 'linkInactive')}
+        id="aboutLink"
+        to="/about"
+      >
+        About
+      </NavLink>
+      <NavLink
+        className={({ isActive }) => (isActive ? 'linkActive' : 'linkInactive')}
+        id="projectsLink"
+        to="/projects"
+      >
+        Projects
+      </NavLink>
+      <NavLink
+        className={({ isActive }) => (isActive ? 'linkActive' : 'linkInactive')}
+        id="contactLink"
+        to="/contact"
+      >
+        Contact
+      </NavLink>
     </ul>
   </nav>
 );
