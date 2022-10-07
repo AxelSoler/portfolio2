@@ -18,7 +18,7 @@
 
 .Developer {
   color: #fff;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-shadow: 4px 4px blue;
   margin-bottom: 48px;
 }
@@ -73,6 +73,7 @@
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(-100%);
   }
@@ -83,7 +84,7 @@
     text-shadow: 6px 6px blue;
     font-size: 64px;
   }
-  
+
   .Developer {
     text-shadow: 6px 6px blue;
     font-size: 48px;
@@ -102,7 +103,7 @@
   #firstText {
     margin-top: 10%;
   }
-  
+
   .description {
     font-size: 28px;
     width: 80%;
