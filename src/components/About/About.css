@@ -3,8 +3,24 @@
   src: url('../../fonts/RobotoCondensed-Bold.ttf');
 }
 
-.logo {
-  width: 100%;
+@font-face {
+  font-family: robotoItalic;
+  src: url('../../fonts/RobotoCondensed-LightItalic.ttf');
+}
+
+.myName {
+  color: #fff;
+  text-shadow: 4px 4px blue;
+  font-size: 36px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 48px;
+}
+
+.Developer {
+  color: #fff;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-shadow: 4px 4px blue;
+  margin-bottom: 48px;
 }
 
 .about {
@@ -35,13 +51,6 @@
   margin: 1% 0;
 }
 
-.technologyTitle {
-  font-size: 18px;
-  border-bottom: 1px solid #fff;
-  margin-bottom: 8px;
-  list-style: none;
-}
-
 .marquee {
   margin: 0 auto;
   white-space: nowrap;
@@ -66,5 +75,40 @@
   }
   100% {
     transform: translateX(-100%);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .myName {
+    text-shadow: 6px 6px blue;
+    font-size: 64px;
+  }
+  
+  .Developer {
+    text-shadow: 6px 6px blue;
+    font-size: 48px;
+  }
+
+  .about {
+    margin-bottom: 128px;
+  }
+
+  .aboutDescription {
+    width: 50%;
+    border-top: 2px solid #fff;
+    padding: 48px 0;
+  }
+
+  #firstText {
+    margin-top: 10%;
+  }
+  
+  .description {
+    font-size: 28px;
+    width: 80%;
+  }
+
+  .marquee {
+    font-size: 28px;
   }
 }

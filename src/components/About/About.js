@@ -1,9 +1,9 @@
-import logo from '../../img/logo/cover.png';
 import './About.css';
 
 const About = () => (
   <section className="about">
-    <img className="logo" src={logo} alt="Axel Soler" />
+    <h1 className="myName">AXEL SOLER</h1>
+    <h2 className="Developer">Full Stack Developer</h2>
     <div className="aboutDescription">
       <p className="marquee">
         <span className="marqueeStyle">
@@ -18,7 +18,7 @@ const About = () => (
         </span>
       </p>
       <p className="description" id="firstText">I can help you build your desire product or website.</p>
-      <p className="description">Look through some of my work and experience!</p>
+      <p className="description">Look through some of my work and experience in the Projects page!</p>
       <p className="description">If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
       <p className="description">Check the links below</p>
     </div>

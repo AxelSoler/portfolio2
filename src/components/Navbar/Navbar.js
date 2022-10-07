@@ -3,10 +3,12 @@ import './Navbar.css';
 
 const Navbar = () => (
   <nav className="navbar">
-    <div className="developer">
-      <h2 className="name">Axel Soler</h2>
-      <h3>Full Stack Developer</h3>
-    </div>
+    <NavLink to="/about">
+      <div className="developer">
+        <h2 className="name">Axel Soler</h2>
+        <h3>Full Stack Developer</h3>
+      </div>
+    </NavLink>
     <ul className="navMenu">
       <NavLink
         className={({ isActive }) => (isActive ? 'linkActive' : 'linkInactive')}

@@ -14,6 +14,7 @@
 }
 
 .project {
+  margin: 0 24px;
   border-radius: 40px;
   height: 60vh;
   padding: 24px;
@@ -42,4 +43,30 @@
 
 .projectName {
   font-size: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+  .picture {
+    width: 90%;
+    border-radius: 16px;
+    border: 4px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .ulTech {
+    font-size: 22px;
+  }
+
+  .projectLink {
+    width: 50%;
+    font-size: 24px;
+  }
+
+  .projectName {
+    font-size: 28px;
+  }
+
+  .cardDescription {
+    font-size: 22px;
+  }
 }

@@ -6,7 +6,7 @@ const Project = (props) => {
     <div id={project.name} className="project">
       <img className="picture" src={project.image} alt={project.name} />
       <h3 className="projectName">{project.name}</h3>
-      <p className="postDescription">{project.description}</p>
+      <p className="cardDescription">{project.description}</p>
       <a href={project.live} target="_blank" rel="noopener noreferrer" className="projectLink">
         See Live version
       </a>
