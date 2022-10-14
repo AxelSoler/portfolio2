@@ -32,11 +32,8 @@ const ContactForm = () => {
     <form className="contactForm" onSubmit={handleSubmit}>
       <h2 className="title">Let’s chat!</h2>
       <p className="description">
-        If you have an application you are interested in developing, a
-        {' '}
-        feature that you need built or a project that needs coding.
+        Looking for a developer? Send me a message!
       </p>
-      <p className="description">I’d love to help with it.</p>
       <label className="labelInput" htmlFor="username">
         What is your name?
         <input
