@@ -33,11 +33,11 @@
 }
 
 .projectLink {
-  width: 85%;
+  width: 100%;
   color: #fff;
   background-color: #004aad;
   border-radius: 16px;
-  padding: 10px 24px;
+  padding: 10px 12px;
   text-decoration: none;
 }
 

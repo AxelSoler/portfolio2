@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import { FiExternalLink } from 'react-icons/fi';
 
 const Project = (props) => {
   const { project } = props;
@@ -6,13 +7,17 @@ const Project = (props) => {
     <div id={project.name} className="project">
       <img className="picture" src={project.image} alt={project.name} />
       <h3 className="projectName">{project.name}</h3>
-      <p className="cardDescription">{project.description}</p>
       <a href={project.live} target="_blank" rel="noopener noreferrer" className="projectLink">
-        See Live version
+        Web Page
+        {' '}
+        <FiExternalLink size="24px" color="#fff" />
       </a>
       <a href={project.repository} target="_blank" rel="noopener noreferrer" className="projectLink">
-        See Repository
+        Repository
+        {' '}
+        <FiExternalLink size="24px" color="#fff" />
       </a>
+      <p className="cardDescription">{project.description}</p>
       <ul className="ulTech">
         {project.technologies.map((technology) => (
           <li key={technology}>{technology}</li>
