@@ -14,7 +14,7 @@ Page designed for mobiles and desktops now! Based on template 4 of the given Fig
 
 ## Live Demo (link to Portfolio webpage)
 
-[Live Demo Link](https://axelsoler.github.io/Axel-Soler-Portfolio/)
+[Live Demo Link](https://teal-lily-641512.netlify.app/)
 
 
 ## Getting Started
