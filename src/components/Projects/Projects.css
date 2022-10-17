@@ -82,7 +82,7 @@
   font-size: 24px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
   .picture {
     width: 90%;
     border-radius: 16px;

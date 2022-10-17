@@ -81,7 +81,7 @@
   justify-content: center;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
   .thanksMessage {
     padding-top: 64px;
     padding-bottom: 4px;

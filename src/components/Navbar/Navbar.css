@@ -3,25 +3,20 @@
   justify-content: space-between;
   align-items: center;
   background-color: #004aad;
-  padding: 16px;
+  padding: 8px 8px 0 8px;
   color: #fff;
   border-bottom: 2px solid #fff;
 }
 
-.developer {
-  display: flex;
-  flex-direction: column;
-  color: #fff;
-}
-
-.name {
-  border-bottom: 1px solid #fff;
+.logo {
+  width: 60px;
+  margin-left: 24px;
 }
 
 .navMenu {
   display: flex;
   justify-content: space-evenly;
-  width: 50%;
+  width: 60%;
 }
 
 .linkActive {
@@ -35,9 +30,14 @@
   color: #fff;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
   .navbar {
-    padding: 16px 64px;
+    padding: 16px 64px 0 64px;
+  }
+
+  .logo {
+    width: 80px;
+    margin-left: 24px;
   }
 
   .linkInactive {

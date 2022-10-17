@@ -116,9 +116,8 @@ const About = () => (
           </ul>
         </div>
       </div>
-      <p className="description" id="firstText">I can help you build your desire product or website.</p>
-      <p className="description">Look through some of my work and experience in the Projects page!</p>
-      <p className="description">If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+      <p className="description" id="firstText">Look through some of my work and experience in the Projects page!</p>
+      <p className="description">If you like what you see, don’t hesitate to contact me.</p>
       <p className="description">Check the links below</p>
     </div>
   </section>
