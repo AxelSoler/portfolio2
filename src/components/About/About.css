@@ -35,7 +35,7 @@
   width: 85%;
   color: #fff;
   border-top: 1px solid #fff;
-  padding: 48px 0;
+  padding: 24px 0;
   font-family: roboto, sans-serif;
   display: flex;
   flex-direction: column;
@@ -52,6 +52,7 @@
 }
 
 .marquee {
+  width: 85%;
   margin: 0 auto;
   white-space: nowrap;
   overflow: hidden;
@@ -59,14 +60,18 @@
   font-size: 18px;
 }
 
-.marquee span {
+.marqueeblock {
   display: inline-block;
   padding-left: 100%;
-  animation: marquee 12s linear infinite;
+  animation: marquee 24s linear infinite;
 }
 
-.marquee2 span {
-  animation-delay: 6s;
+.marqueeblock2 {
+  animation-delay: 12s;
+}
+
+.ulmarquee {
+  display: flex;
 }
 
 @keyframes marquee {
@@ -75,8 +80,25 @@
   }
 
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-1250px);
   }
+}
+
+.ulmarquee li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 4px;
+  align-items: center;
+}
+
+.skill {
+  width: 30px;
+}
+
+.railsimg {
+  width: 50px;
+  margin: auto 0;
 }
 
 @media only screen and (min-width: 768px) {
@@ -111,5 +133,35 @@
 
   .marquee {
     font-size: 28px;
+    width: 50%;
+  }
+
+  .skill {
+    width: 40px;
+  }
+
+  .railsimg {
+    width: 60px;
+    margin: auto 0;
+  }
+
+  .marqueeblock {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee2 24s linear infinite;
+  }
+
+  .marqueeblock2 {
+    animation-delay: 12s;
+  }
+
+  @keyframes marquee2 {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(-1830px);
+    }
   }
 }
