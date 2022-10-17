@@ -9,23 +9,20 @@ import mycroverseimg from '../../img/projects/Mycroverse2.0.png';
 const projects = [
   {
     name: 'YellowRooms',
-    description: 'Reserve your ideal Yellow Room here!!! Final group capstone project Yellow Rooms has been created to book reservations for hotel rooms.',
+    description: 'Reserve your ideal Yellow Room here!!!',
     image: yellowroomsimg,
     technologies: [
-      'CSS',
-      'html',
       'JavaScript',
       'React',
-      'ruby',
-      'ruby on rails',
-      'rspec',
+      'Ruby',
+      'RoR',
     ],
     live: 'https://yellow-rooms.netlify.app/',
     repository: 'https://github.com/AxelSoler/YellowRooms-Front',
   },
   {
     name: 'Monster Hunter World',
-    description: 'Web application to analyze the information about all the monsters of Monster Hunter World. You can search and see the data about each monster. Page still on work',
+    description: 'Web application to analyze the information about all the monsters of Monster Hunter World.',
     image: monsterimg,
     technologies: [
       'CSS',
@@ -38,20 +35,20 @@ const projects = [
   },
   {
     name: 'Super Budget App',
-    description: 'Super Budget App is a mobile application where you can track all the transactions you have done, You must create an account in order to use the app',
+    description: 'Super Budget App is a mobile application where you can track all the transactions you have done',
     image: budgetimg,
     technologies: [
       'CSS',
       'Ruby',
-      'Ruby on Rails',
-      'Rspec',
+      'RoR',
+      'RSpec',
     ],
     live: 'https://super-budget-app.fly.dev/',
     repository: 'https://github.com/AxelSoler/super-budget-app',
   },
   {
     name: 'Space Travelers Hub',
-    description: 'Web application for a company that provides commercial and scientific space travel services. The application allows users to book rockets and join selected space missions.',
+    description: 'Web application for a company that provides commercial and scientific space travel services.',
     image: spaceimg,
     technologies: [
       'CSS',
@@ -64,11 +61,11 @@ const projects = [
   },
   {
     name: 'Cocktail',
-    description: 'JavaScript Capstone Project: You can see the different Margaritas stored in an API, see their description and add a comment or leave a like for each one. Data will be stored and displayed in real-time from a second API.',
+    description: 'You can see the different Margaritas stored in an API, see their description and add a comment or leave a like.',
     image: cocktailimg,
     technologies: [
       'CSS',
-      'html',
+      'HTML',
       'JavaScript',
       'Jest-Tests',
     ],
@@ -77,11 +74,11 @@ const projects = [
   },
   {
     name: 'Sonic Leaderboard',
-    description: 'First time working with API. The Sonic leaderboard website displays scores submitted by different players and allows you to keep a record of it.',
+    description: 'The Sonic leaderboard allows you to keep a record of scores submitted by different players.',
     image: sonicimg,
     technologies: [
       'CSS',
-      'html',
+      'HTML',
       'JavaScript',
       'Jest-Tests',
     ],
@@ -90,11 +87,11 @@ const projects = [
   },
   {
     name: 'Mycroverse-2.0',
-    description: "First Microverse capstone project, I worked and learned a lot whit this project. technologies: HTML, CSS JavaScript. A promoting page about my new course(that's the idea). Page designed for multiple devices.",
+    description: 'First Microverse capstone project, A promoting page about my new course.',
     image: mycroverseimg,
     technologies: [
       'CSS',
-      'html',
+      'HTML',
       'JavaScript',
     ],
     live: 'https://axelsoler.github.io/HTML-CSS-JavaScript-capstone-project---Mycroverse-2.0/',

@@ -1,3 +1,14 @@
+import HTMLimg from '../../img/symbols/html.svg';
+import CSSimg from '../../img/symbols/css.svg';
+import JavaScriptimg from '../../img/symbols/javascript.svg';
+import reactimg from '../../img/symbols/react.svg';
+import Rubyimg from '../../img/symbols/ruby.svg';
+import Railsimg from '../../img/symbols/rails.svg';
+import Postgresimg from '../../img/symbols/postgresql.svg';
+import RSpecimg from '../../img/symbols/RSpec.svg';
+import Githubimg from '../../img/symbols/github.svg';
+import Gitlabimg from '../../img/symbols/gitlab.svg';
+import Terminalimg from '../../img/symbols/terminal.svg';
 import './About.css';
 
 const About = () => (
@@ -5,21 +16,108 @@ const About = () => (
     <h1 className="myName">AXEL SOLER</h1>
     <h2 className="Developer">Full Stack Developer</h2>
     <div className="aboutDescription">
-      <p className="marquee">
-        <span className="marqueeStyle">
-          -Html -Css -Javascript -Ruby -Rails -Postgres -React
-          {' '}
-        </span>
-      </p>
-      <p className="marquee marquee2">
-        <span>
-          -RSpec -CapyBara -Codekit -Github -Gitlab -terminal
-          {' '}
-        </span>
-      </p>
-      <p className="description" id="firstText">I can help you build your desire product or website.</p>
-      <p className="description">Look through some of my work and experience in the Projects page!</p>
-      <p className="description">If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+      <div className="marquee">
+        <div className="marqueeblock">
+          <ul className="ulmarquee">
+            <li>
+              <img className="skill" src={HTMLimg} alt="skill logo" />
+              HTML
+            </li>
+            <li>
+              <img className="skill" src={CSSimg} alt="skill logo" />
+              CSS
+            </li>
+            <li>
+              <img className="skill" src={JavaScriptimg} alt="skill logo" />
+              JavaScript
+            </li>
+            <li>
+              <img className="skill" src={reactimg} alt="skill logo" />
+              React
+            </li>
+            <li>
+              <img className="skill" src={Rubyimg} alt="skill logo" />
+              Ruby
+            </li>
+            <li>
+              <img className="skill railsimg" src={Railsimg} alt="skill logo" />
+              Rails
+            </li>
+            <li>
+              <img className="skill" src={Postgresimg} alt="skill logo" />
+              Postgres
+            </li>
+            <li>
+              <img className="skill" src={RSpecimg} alt="skill logo" />
+              RSpec
+            </li>
+            <li>
+              <img className="skill" src={Githubimg} alt="skill logo" />
+              Github
+            </li>
+            <li>
+              <img className="skill" src={Gitlabimg} alt="skill logo" />
+              Gitlab
+            </li>
+            <li>
+              <img className="skill" src={Terminalimg} alt="skill logo" />
+              Terminal
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className="marquee">
+        <div className="marqueeblock marqueeblock2">
+          <ul className="ulmarquee">
+            <li>
+              <img className="skill" src={HTMLimg} alt="skill logo" />
+              HTML
+            </li>
+            <li>
+              <img className="skill" src={CSSimg} alt="skill logo" />
+              CSS
+            </li>
+            <li>
+              <img className="skill" src={JavaScriptimg} alt="skill logo" />
+              JavaScript
+            </li>
+            <li>
+              <img className="skill" src={reactimg} alt="skill logo" />
+              React
+            </li>
+            <li>
+              <img className="skill" src={Rubyimg} alt="skill logo" />
+              Ruby
+            </li>
+            <li>
+              <img className="skill railsimg" src={Railsimg} alt="skill logo" />
+              Rails
+            </li>
+            <li>
+              <img className="skill" src={Postgresimg} alt="skill logo" />
+              Postgres
+            </li>
+            <li>
+              <img className="skill" src={RSpecimg} alt="skill logo" />
+              RSpec
+            </li>
+            <li>
+              <img className="skill" src={Githubimg} alt="skill logo" />
+              Github
+            </li>
+            <li>
+              <img className="skill" src={Gitlabimg} alt="skill logo" />
+              Gitlab
+            </li>
+            <li>
+              <img className="skill" src={Terminalimg} alt="skill logo" />
+              Terminal
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p className="description" id="firstText">Look through some of my work and experience in the Projects page!</p>
+      <p className="description">If you like what you see, don’t hesitate to contact me.</p>
       <p className="description">Check the links below</p>
     </div>
   </section>

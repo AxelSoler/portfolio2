@@ -33,19 +33,56 @@
 }
 
 .projectLink {
-  width: 85%;
-  color: #fff;
+  align-items: center;
+  text-align: center;
+  background-clip: padding-box;
   background-color: #004aad;
-  border-radius: 16px;
-  padding: 10px 24px;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
   text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.projectLink:hover,
+.projectLink:focus {
+  background-color: #096bed;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.projectLink:hover {
+  transform: translateY(-1px);
+}
+
+.projectLink:active {
+  background-color: #002a60;
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  transform: translateY(0);
 }
 
 .projectName {
   font-size: 24px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
   .picture {
     width: 90%;
     border-radius: 16px;
@@ -53,13 +90,12 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
-  .ulTech {
-    font-size: 22px;
+  .projectLink {
+    font-size: 24px;
   }
 
-  .projectLink {
-    width: 50%;
-    font-size: 24px;
+  .ulTech {
+    font-size: 22px;
   }
 
   .projectName {

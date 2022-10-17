@@ -16,9 +16,9 @@
   margin: 0 auto;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
   .socialMedia {
-    bottom: 48px;
+    bottom: 24px;
   }
 
   .ulSocial {
