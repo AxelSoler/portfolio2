@@ -1,34 +1,28 @@
-import { NavLink } from 'react-router-dom';
 import logo from '../../img/logo/logo.png';
 import './Navbar.css';
 
 const Navbar = () => (
   <nav className="navbar">
-    <NavLink to="/about">
-      <img className="logo" src={logo} alt="logo" />
-    </NavLink>
+    <img className="logo" src={logo} alt="logo" to="#about" />
     <ul className="navMenu">
-      <NavLink
-        className={({ isActive }) => (isActive ? 'linkActive' : 'linkInactive')}
+      <a
         id="aboutLink"
-        to="/about"
+        href="#about"
       >
         About
-      </NavLink>
-      <NavLink
-        className={({ isActive }) => (isActive ? 'linkActive' : 'linkInactive')}
+      </a>
+      <a
         id="projectsLink"
-        to="/projects"
+        href="#work"
       >
         Projects
-      </NavLink>
-      <NavLink
-        className={({ isActive }) => (isActive ? 'linkActive' : 'linkInactive')}
+      </a>
+      <a
         id="contactLink"
-        to="/contact"
+        href="#contact"
       >
         Contact
-      </NavLink>
+      </a>
     </ul>
   </nav>
 );

@@ -20,7 +20,7 @@ const Projects = () => {
     },
   };
   return (
-    <section className="work">
+    <section className="work" id="work">
       <h2 className="title">MY PROJECTS</h2>
       <Carousel
         responsive={responsive}

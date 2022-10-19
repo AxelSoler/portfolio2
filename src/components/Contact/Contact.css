@@ -27,7 +27,8 @@
 
 .contactForm {
   width: 85%;
-  margin: 0 auto 96px auto;
+  padding-top: 64px;
+  margin: 0 auto;
   color: #fff;
   display: flex;
   flex-direction: column;

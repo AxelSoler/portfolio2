@@ -12,7 +12,7 @@ import Terminalimg from '../../img/symbols/terminal.svg';
 import './About.css';
 
 const About = () => (
-  <section className="about">
+  <section className="about" id="about">
     <h1 className="myName">AXEL SOLER</h1>
     <h2 className="Developer">Full Stack Developer</h2>
     <div className="aboutDescription">
@@ -116,9 +116,9 @@ const About = () => (
           </ul>
         </div>
       </div>
-      <p className="description" id="firstText">Look through some of my work and experience in the Projects page!</p>
+      <p className="description" id="firstText">Look through some of my work and experience in the Projects section!</p>
       <p className="description">If you like what you see, don’t hesitate to contact me.</p>
-      <p className="description">Check the links below</p>
+      <p className="description">Check the Contact section</p>
     </div>
   </section>
 );

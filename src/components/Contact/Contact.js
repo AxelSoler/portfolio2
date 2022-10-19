@@ -29,7 +29,7 @@ const ContactForm = () => {
     );
   }
   return (
-    <form className="contactForm" onSubmit={handleSubmit}>
+    <form id="contact" className="contactForm" onSubmit={handleSubmit}>
       <h2 className="title">Let’s chat!</h2>
       <p className="description">
         Looking for a developer? Send me a message!
