@@ -27,7 +27,7 @@
 
 .contactForm {
   width: 85%;
-  padding-top: 64px;
+  padding-top: 24px;
   margin: 0 auto;
   color: #fff;
   display: flex;
@@ -38,8 +38,7 @@
 
 .title {
   font-size: 28px;
-  border-bottom: 1px solid #fff;
-  margin: 6px auto 24px auto;
+  margin: 6px auto 6px auto;
   padding: 12px 0;
   width: 80%;
   text-shadow: 4px 4px blue;

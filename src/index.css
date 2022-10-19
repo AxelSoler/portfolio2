@@ -13,6 +13,6 @@ a {
 }
 
 body {
-  background-color: #848bd8;
-  background-image: linear-gradient(to right, #5670cf, #848bd8);
+  background-color: #000;
+  background-image: linear-gradient(to right, #000, #5670cf);
 }

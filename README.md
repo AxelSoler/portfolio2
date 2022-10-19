@@ -62,7 +62,7 @@ This project is [MIT](./MIT.md) licensed.
 
 ## To - Do list
 
-- One page
+- hamburguer
 - Change colors and fonts
 - More style to skills loop
 - Fix minor details to make the page more responsive (tablets)
