@@ -11,12 +11,7 @@
   z-index: 1006;
 }
 
-.logo {
-  width: 60px;
-  margin-left: 24px;
-}
-
-.navMenu.active {
+.navMobileMenu.active {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,7 +22,7 @@
   background-image: linear-gradient(to top, #000, #004aad);
 }
 
-.navMenu {
+.navMobileMenu {
   display: none;
 }
 
@@ -44,6 +39,16 @@
   margin-left: auto;
 }
 
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
+
 .hamburger.active .bar:nth-child(2) {
   opacity: 0;
 }
@@ -54,16 +59,6 @@
 
 .hamburger.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
-}
-
-.bar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  background-color: #101010;
 }
 
 .pageLink {
@@ -107,18 +102,38 @@
   margin-bottom: 36px;
 }
 
+.navPcMenu {
+  display: none;
+}
+
 @media only screen and (min-width: 769px) {
   .navbar {
     padding: 16px 64px 0 64px;
   }
 
-  .logo {
-    width: 80px;
-    margin-left: 24px;
-  }
-
   .hamburger {
     display: none;
+  }
+
+  .navPcMenu {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  .navPcMenu a {
+    font-size: 24px;
+    color: #fff;
+    margin: 0 12px;
+    text-decoration: underline;
+  }
+
+  .navPcMenu a:focus {
+    color: #004aad;
+  }
+
+  .navPcMenu a:hover {
+    color: #004aad;
   }
 
   /* .linkInactive {

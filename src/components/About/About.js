@@ -116,9 +116,9 @@ const About = () => (
           </ul>
         </div>
       </div>
-      <p className="description" id="firstText">Look through some of my work and experience in the Projects section!</p>
+      <p className="description" id="firstText">Look through some of my experience in the Projects section!</p>
       <p className="description">If you like what you see, don’t hesitate to contact me.</p>
-      <p className="description">Check the Contact section</p>
+      <p className="description">Check the Contact section.</p>
     </div>
   </section>
 );

@@ -5,14 +5,14 @@ import './Navbar.css';
 const Navbar = () => {
   const toggleMobileMenu = () => {
     const hamburger = document.querySelector('.hamburger');
-    const navMenu = document.querySelector('.navMenu');
+    const navMenu = document.querySelector('.navMobileMenu');
     hamburger.classList.toggle('active');
     navMenu.classList.toggle('active');
   };
 
   return (
     <nav className="navbar">
-      <ul className="navMenu">
+      <ul className="navMobileMenu">
         <img className="profilePicture" src={profilePicture} alt="Axel Soler" />
         <a
           className="pageLink"
@@ -52,6 +52,23 @@ const Navbar = () => {
         <span className="bar" />
         <span className="bar" />
       </button>
+      <ul className="navPcMenu">
+        <a
+          href="#about"
+        >
+          About
+        </a>
+        <a
+          href="#work"
+        >
+          Projects
+        </a>
+        <a
+          href="#contact"
+        >
+          Contact
+        </a>
+      </ul>
     </nav>
   );
 };
