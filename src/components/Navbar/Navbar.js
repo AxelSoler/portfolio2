@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <ul className="navMobileMenu">
-        <img className="profilePicture" src={profilePicture} alt="Axel Soler" />
+        <img className="navProfilePicture" src={profilePicture} alt="Axel Soler" />
         <a
           className="pageLink"
           id="aboutLink"

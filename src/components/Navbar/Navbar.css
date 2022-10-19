@@ -95,7 +95,7 @@
   transform: rotate(-45deg);
 }
 
-.profilePicture {
+.navProfilePicture {
   border-radius: 50px;
   border: 4px solid #4294ff;
   width: 100px;

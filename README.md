@@ -67,7 +67,6 @@ This project is [MIT](./MIT.md) licensed.
 - Fix minor details to make the page more responsive (tablets)
 - Create skills page
 - Create a better design for projects cards
-- Better description of myself
 - Update pc navbar
 - Add more projects
 - More
