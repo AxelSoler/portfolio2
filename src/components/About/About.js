@@ -9,10 +9,11 @@ import RSpecimg from '../../img/symbols/RSpec.svg';
 import Githubimg from '../../img/symbols/github.svg';
 import Gitlabimg from '../../img/symbols/gitlab.svg';
 import Terminalimg from '../../img/symbols/terminal.svg';
+import profilePicture from '../../img/profile/profilepic.jpg';
 import './About.css';
 
 const About = () => (
-  <section className="about">
+  <section className="about" id="about">
     <h1 className="myName">AXEL SOLER</h1>
     <h2 className="Developer">Full Stack Developer</h2>
     <div className="aboutDescription">
@@ -116,9 +117,13 @@ const About = () => (
           </ul>
         </div>
       </div>
-      <p className="description" id="firstText">Look through some of my work and experience in the Projects page!</p>
-      <p className="description">If you like what you see, don’t hesitate to contact me.</p>
-      <p className="description">Check the links below</p>
+      <img className="profilePicture" src={profilePicture} alt="Axel Soler" />
+      <p className="description">I am passionate about programming and video games. Learning and working with teammates and friends around the world in a fully remote environment.</p>
+      <p className="description">JavaScript =&gt; React.</p>
+      <p className="description">Patience and friendly.</p>
+      <p className="description">English and Spanish(Argentina).</p>
+      <p className="description">Look through some of my experience in the Projects section!</p>
+      <p className="description">If you like what you see, don’t hesitate to contact me in Contact section.</p>
     </div>
   </section>
 );
