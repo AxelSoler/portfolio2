@@ -63,10 +63,9 @@ This project is [MIT](./MIT.md) licensed.
 ## To - Do list
 
 - Change colors and fonts
-- More style to skills loop
 - Fix minor details to make the page more responsive (tablets)
 - Create skills page
-- Create a better design for projects cards
+- Create a better design for projects cards and project list
 - Update pc navbar
 - Add more projects
 - More
