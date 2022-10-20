@@ -56,17 +56,17 @@ const Navbar = () => {
         <a
           href="#about"
         >
-          About
+          ABOUT
         </a>
         <a
           href="#work"
         >
-          Projects
+          PRJECTS
         </a>
         <a
           href="#contact"
         >
-          Contact
+          CONTACT
         </a>
       </ul>
     </nav>
