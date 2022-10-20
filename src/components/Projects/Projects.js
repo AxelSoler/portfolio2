@@ -23,6 +23,7 @@ const Projects = () => {
     <section className="work" id="work">
       <h2 className="title">MY PROJECTS</h2>
       <Carousel
+        arrows={false}
         responsive={responsive}
         className="carousel-container"
         infinite
