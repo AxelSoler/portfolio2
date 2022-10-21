@@ -74,6 +74,28 @@
   display: flex;
 }
 
+.profilePicture {
+  border-radius: 90px;
+  border: 4px solid #4294ff;
+  width: 180px;
+  margin-top: 80px;
+  margin-bottom: 12px;
+}
+
+.SkillsDescription {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  align-items: center;
+  width: 80%;
+  font-size: 20px;
+  margin: 8px 0;
+}
+
+.SkillsDescription img {
+  align-self: center;
+  justify-self: center;
+}
+
 @keyframes marquee {
   0% {
     transform: translateX(0);
@@ -163,5 +185,11 @@
     100% {
       transform: translateX(-1830px);
     }
+  }
+
+  .SkillsDescription {
+    width: 60%;
+    font-size: 28px;
+    margin: 16px 0;
   }
 }
