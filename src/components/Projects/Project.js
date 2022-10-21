@@ -6,18 +6,20 @@ const Project = (props) => {
     <div id={project.name} className="project">
       <img className="picture" src={project.image} alt={project.name} />
       <h3 className="projectName">{project.name}</h3>
-      <a href={project.live} target="_blank" rel="noopener noreferrer" className="projectLink">
-        Live Version
-      </a>
-      <a href={project.repository} target="_blank" rel="noopener noreferrer" className="projectLink">
-        Repository
-      </a>
       <p className="cardDescription">{project.description}</p>
       <ul className="ulTech">
         {project.technologies.map((technology) => (
           <li key={technology}>{technology}</li>
         ))}
       </ul>
+      <div className="repoLinks">
+        <a href={project.live} target="_blank" rel="noopener noreferrer" className="projectLink">
+          Live Version
+        </a>
+        <a href={project.repository} target="_blank" rel="noopener noreferrer" className="projectLink">
+          Repository
+        </a>
+      </div>
     </div>
   );
 };

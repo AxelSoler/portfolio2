@@ -1,36 +1,76 @@
-import { NavLink } from 'react-router-dom';
-import logo from '../../img/logo/logo.png';
+import { IoIosArrowForward } from 'react-icons/io';
+import profilePicture from '../../img/profile/profilepic.jpg';
 import './Navbar.css';
 
-const Navbar = () => (
-  <nav className="navbar">
-    <NavLink to="/about">
-      <img className="logo" src={logo} alt="logo" />
-    </NavLink>
-    <ul className="navMenu">
-      <NavLink
-        className={({ isActive }) => (isActive ? 'linkActive' : 'linkInactive')}
-        id="aboutLink"
-        to="/about"
+const Navbar = () => {
+  const toggleMobileMenu = () => {
+    const hamburger = document.querySelector('.hamburger');
+    const navMenu = document.querySelector('.navMobileMenu');
+    hamburger.classList.toggle('active');
+    navMenu.classList.toggle('active');
+  };
+
+  return (
+    <nav className="navbar">
+      <ul className="navMobileMenu">
+        <img className="navProfilePicture" src={profilePicture} alt="Axel Soler" />
+        <a
+          className="pageLink"
+          id="aboutLink"
+          href="#about"
+          onClick={toggleMobileMenu}
+        >
+          About
+          <IoIosArrowForward size="28px" />
+        </a>
+        <a
+          className="pageLink"
+          id="projectsLink"
+          href="#work"
+          onClick={toggleMobileMenu}
+        >
+          Projects
+          <IoIosArrowForward size="28px" />
+        </a>
+        <a
+          className="pageLink"
+          id="contactLink"
+          href="#contact"
+          onClick={toggleMobileMenu}
+        >
+          Contact
+          <IoIosArrowForward size="28px" />
+        </a>
+      </ul>
+      <button
+        type="button"
+        className="hamburger"
+        onClick={toggleMobileMenu}
+        onKeyDown={toggleMobileMenu}
       >
-        About
-      </NavLink>
-      <NavLink
-        className={({ isActive }) => (isActive ? 'linkActive' : 'linkInactive')}
-        id="projectsLink"
-        to="/projects"
-      >
-        Projects
-      </NavLink>
-      <NavLink
-        className={({ isActive }) => (isActive ? 'linkActive' : 'linkInactive')}
-        id="contactLink"
-        to="/contact"
-      >
-        Contact
-      </NavLink>
-    </ul>
-  </nav>
-);
+        <span className="bar" />
+        <span className="bar" />
+        <span className="bar" />
+      </button>
+      <ul className="navPcMenu">
+        <a
+          href="#about"
+        >
+          ABOUT
+        </a>
+        <a
+          href="#work"
+        >
+          PRJECTS
+        </a>
+        <a
+          href="#contact"
+        >
+          CONTACT
+        </a>
+      </ul>
+    </nav>
+  );
+};
 
 export default Navbar;

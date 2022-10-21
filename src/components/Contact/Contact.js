@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import { useForm } from '@formspree/react';
 import { FiExternalLink } from 'react-icons/fi';
 import './Contact.css';
@@ -10,26 +9,12 @@ const ContactForm = () => {
     return (
       <div className="submitedContainer">
         <p className="thanksMessage">Thank you for submitting the message!</p>
-        <NavLink
-          className="contactLink"
-          id="aboutLink"
-          to="/about"
-        >
-          Go to About page
-        </NavLink>
-        <NavLink
-          className="contactLink"
-          id="projectsLink"
-          to="/projects"
-        >
-          Go to Projects page
-        </NavLink>
         <p className="thanksMessage">Check the links below to see my profile</p>
       </div>
     );
   }
   return (
-    <form className="contactForm" onSubmit={handleSubmit}>
+    <form id="contact" className="contactForm" onSubmit={handleSubmit}>
       <h2 className="title">Let’s chat!</h2>
       <p className="description">
         Looking for a developer? Send me a message!
@@ -41,7 +26,7 @@ const ContactForm = () => {
           className="input"
           id="username"
           name="username"
-          placeholder="Username"
+          placeholder="Name"
         />
       </label>
       <label className="labelInput" htmlFor="email">
@@ -79,7 +64,7 @@ const ContactForm = () => {
           id="formspree"
         >
           Formspree
-          <FiExternalLink size="20px" color="#920014" />
+          <FiExternalLink size="20px" color="#ff2441" />
         </a>
       </p>
     </form>

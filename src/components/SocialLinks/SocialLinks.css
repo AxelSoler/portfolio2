@@ -1,6 +1,5 @@
 .socialMedia {
-  position: fixed;
-  bottom: 24px;
+  margin: 32px 0 64px 0;
   left: 0;
   right: 0;
 }

@@ -14,7 +14,7 @@ Page designed for mobiles and desktops now! Based on template 4 of the given Fig
 
 ## Live Demo (link to Portfolio webpage)
 
-[Live Demo Link](https://teal-lily-641512.netlify.app/)
+[Live Demo Link](https://axel-soler-dev.netlify.app)
 
 
 ## Getting Started
@@ -62,10 +62,10 @@ This project is [MIT](./MIT.md) licensed.
 
 ## To - Do list
 
-- More style to skills loop
+- Change colors and fonts
 - Fix minor details to make the page more responsive (tablets)
-- Create a better design for projects cards
-- Better description of myself
-- Create a new navbar
+- Create skills page
+- Create a better design for projects cards and project list
+- Update pc navbar
 - Add more projects
 - More

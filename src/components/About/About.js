@@ -9,10 +9,11 @@ import RSpecimg from '../../img/symbols/RSpec.svg';
 import Githubimg from '../../img/symbols/github.svg';
 import Gitlabimg from '../../img/symbols/gitlab.svg';
 import Terminalimg from '../../img/symbols/terminal.svg';
+import profilePicture from '../../img/profile/profilepic.jpg';
 import './About.css';
 
 const About = () => (
-  <section className="about">
+  <section className="about" id="about">
     <h1 className="myName">AXEL SOLER</h1>
     <h2 className="Developer">Full Stack Developer</h2>
     <div className="aboutDescription">
