@@ -13,7 +13,7 @@ import profilePicture from '../../img/profile/profilepic.jpg';
 import './About.css';
 
 const About = () => (
-  <section className="about" id="about">
+  <section className="about">
     <h1 className="myName">AXEL SOLER</h1>
     <h2 className="Developer">Full Stack Developer</h2>
     <div className="aboutDescription">
@@ -117,7 +117,7 @@ const About = () => (
           </ul>
         </div>
       </div>
-      <img className="profilePicture" src={profilePicture} alt="Axel Soler" />
+      <img className="profilePicture" src={profilePicture} alt="Axel Soler" id="about" />
       <p className="description">I am passionate about programming and video games. Learning and working with teammates and friends around the world in a fully remote environment.</p>
       <p className="SkillsDescription">
         <img className="skill" src={JavaScriptimg} alt="JavaScript logo" />
@@ -129,10 +129,10 @@ const About = () => (
         Ruby =&gt; Rails
         <img className="skill railsimg" src={Railsimg} alt="skill logo" />
       </p>
-      <p className="description">Patience and friendly.</p>
-      <p className="description">English and Spanish(Argentina).</p>
+      <p className="description">Patient, Teamwork, Compromise, growth mindset, and friendly.</p>
+      <p className="description">English and Spanish (Argentina).</p>
       <p className="description">Look through some of my experience in the Projects section!</p>
-      <p className="description">If you like what you see, don’t hesitate to contact me in Contact section.</p>
+      <p className="description">If you like what you see, don’t hesitate to contact me in the Contact section.</p>
     </div>
   </section>
 );

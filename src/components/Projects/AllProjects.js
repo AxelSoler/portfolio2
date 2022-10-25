@@ -85,7 +85,7 @@ const projects = [
   },
   {
     name: 'Mycroverse-2.0',
-    description: 'First Microverse capstone project, A promoting page about my new course.',
+    description: 'A promoting page about my new course.',
     image: mycroverseimg,
     technologies: [
       'CSS',

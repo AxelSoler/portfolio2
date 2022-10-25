@@ -94,7 +94,7 @@
 
   .contactForm {
     width: 60%;
-    margin: 0 auto 96px auto;
+    margin: 0 auto;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -108,17 +108,17 @@
   }
 
   .input {
-    padding: 16px;
-    font-size: 26px;
+    padding: 8px 12px;
+    font-size: 22px;
     border: 4px solid #004aad;
   }
 
   #submitButton {
-    font-size: 24px;
+    font-size: 20px;
     border: 3px solid black;
   }
 
   #formspreeLink {
-    font-size: 22px;
+    font-size: 16px;
   }
 }

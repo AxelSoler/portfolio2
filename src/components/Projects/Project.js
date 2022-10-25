@@ -17,7 +17,7 @@ const Project = (props) => {
           Live Version
         </a>
         <a href={project.repository} target="_blank" rel="noopener noreferrer" className="projectLink">
-          Repository
+          See Source
         </a>
       </div>
     </div>

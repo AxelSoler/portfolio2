@@ -61,7 +61,7 @@ const Navbar = () => {
         <a
           href="#work"
         >
-          PRJECTS
+          PROJECTS
         </a>
         <a
           href="#contact"

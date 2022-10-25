@@ -12,7 +12,7 @@ const SocialLinks = () => (
           rel="noopener noreferrer"
           aria-label="Github"
         >
-          <BsGithub color="#004aad" size="24px" />
+          <BsGithub color="#004aad" size="28px" />
         </a>
       </li>
       <li className="social">
@@ -22,7 +22,7 @@ const SocialLinks = () => (
           rel="noopener noreferrer"
           aria-label="LinkedIn"
         >
-          <BsLinkedin color="#004aad" size="24px" />
+          <BsLinkedin color="#004aad" size="28px" />
         </a>
       </li>
       <li className="social">
@@ -32,7 +32,7 @@ const SocialLinks = () => (
           rel="noopener noreferrer"
           aria-label="Angellist"
         >
-          <FaAngellist color="#004aad" size="24px" />
+          <FaAngellist color="#004aad" size="28px" />
         </a>
       </li>
       <li className="social">
@@ -42,7 +42,7 @@ const SocialLinks = () => (
           rel="noopener noreferrer"
           aria-label="Twitter"
         >
-          <BsTwitter color="#004aad" size="24px" />
+          <BsTwitter color="#004aad" size="28px" />
         </a>
       </li>
     </ul>
